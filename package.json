@@ -1,22 +1,33 @@
 {
-  "name": "my-new-next",
+  "name": "desarrolloglobal",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.2.1",
-    "@types/react": "18.2.6",
-    "@types/react-dom": "18.2.4",
-    "eslint": "8.40.0",
-    "eslint-config-next": "13.4.3",
-    "next": "13.4.3",
+    "@flaticon/flaticon-uicons": "^2.1.0",
+    "@headlessui/react": "^1.7.14",
+    "@types/node": "18.16.3",
+    "@types/react": "18.2.2",
+    "@types/react-dom": "18.2.3",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.4",
+    "memfs": "^3.5.1",
+    "next": "13.3.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/react-slick": "^0.23.10",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
   }
 }
